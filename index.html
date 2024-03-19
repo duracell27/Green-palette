@@ -12,11 +12,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
-      <div class="conatainer">
+      <div class="container">
         <div class="header__inner">
           <div class="header-top">
             <a href="#!" class="logo">
@@ -48,7 +52,7 @@
             <div class="header-content__inner">
               <div class="header-content__box">
                 <p class="header-content__text">
-                  Ми працюємо на всій території Ураїни
+                  Ми працюємо на всій території України
                 </p>
                 <h1 class="header-content__title">
                   Реалізуйте Ваші зелені мрії з нами
@@ -71,6 +75,512 @@
       </div>
     </header>
 
+    <main class="main">
+      <section class="about">
+        <div class="container">
+          <h2 class="title">Про нас</h2>
+          <div class="about__inner">
+            <img src="images/about.png" alt="about" class="about__inner-img" />
+            <div class="about__inner-box">
+              <p class="about__text">
+                <span>Зелена Палітра</span> прагне досягти гармонії між природою
+                та архітектурою, створюючи неповторні ландшафти, які враховують
+                естетику, функціональність та стійкість до зношування.
+              </p>
+              <p class="about__text">
+                <span>Зелена Палітра</span> завдяки своєму професійному підходу
+                та інноваційним рішенням,стала популярним вибором для тих, хто
+                цінує красу і комфорт у своєму оточенні.
+              </p>
+              <h3 class="about__inner-title">Наші досягнення</h3>
+              <dl class="about__inner-list">
+                <div class="">
+                  <dt>20</dt>
+                  <dd>років досвіду</dd>
+                </div>
+                <div class="">
+                  <dt>250</dt>
+                  <dd>реалізованих проектів</dd>
+                </div>
+                <div class="">
+                  <dt>25 000</dt>
+                  <dd>посаджених дерев</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="why">
+        <div class="container">
+          <h2 class="title">Чому ми?</h2>
+          <p class="why__text">
+            Ви обираєте якість, креативність та натхнення для вашого саду.
+          </p>
+          <div class="why__inner">
+            <img src="images/why.png" alt="whyus" class="why__img" />
+            <ol class="why__inner-list">
+              <li class="why__inner-item">Досвід</li>
+              <li class="why__inner-item pl--60">Індивідуальний підхід</li>
+              <li class="why__inner-item pl--90">
+                Екологічна відповідальність
+              </li>
+              <li class="why__inner-item pl--90">Функціональність</li>
+              <li class="why__inner-item pl--60">Ціна та оплата</li>
+              <li class="why__inner-item">Гарантія</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <section class="projects">
+        <div class="container">
+          <h2 class="title">Наші проекти</h2>
+          <p class="projects__text">
+            Ми гарантуємо, що ваші очі будуть радіти кожен раз, коли ви будете
+            насолоджуватися вашим новим ландшафтом.
+          </p>
+          <div class="projects__galery">
+            <div class="projects__galery-item">
+              <p class="projects__galery-text">
+                с. Віта Почтова, Київська обл.
+              </p>
+              <img
+                src="images/project1.png"
+                alt="galery img"
+                class="projects__galery-img"
+              />
+            </div>
+            <div class="projects__galery-item galery--item">
+              <p class="projects__galery-text">с. Гатне, Київська обл.</p>
+              <img
+                src="images/project3.png"
+                alt="galery img"
+                class="projects__galery-img"
+              />
+            </div>
+            <div class="projects__galery-item">
+              <p class="projects__galery-text">
+                м. Знам’янка, Кіровоградська обл.
+              </p>
+              <img
+                src="images/project4.png"
+                alt="galery img"
+                class="projects__galery-img"
+              />
+            </div>
+            <div class="projects__galery-item">
+              <img
+                src="images/project2.png"
+                alt="galery img"
+                class="projects__galery-img"
+              />
+              <p class="projects__galery-text">м. Винники, Львівська обл.</p>
+            </div>
+            <div class="projects__galery-item">
+              <img
+                src="images/project5.png"
+                alt="galery img"
+                class="projects__galery-img"
+              />
+              <p class="projects__galery-text">м. Умань, Черкаська обл.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <h2 class="title">Послуги</h2>
+          <p class="services__text">
+            Ми працюємо з усіма типами просторів. Зверніться до нас, щоб
+            створити ваш ідеальний ландшафт.
+          </p>
+          <ul class="services__list">
+            <li class="services__item">
+              <img src="images/services1.svg" alt="services" />
+              <p class="services__item-text">Ландшафтний дизайн</p>
+            </li>
+            <li class="services__item">
+              <img src="images/services2.svg" alt="services" />
+              <p class="services__item-text">Трав’янисті покриття</p>
+            </li>
+            <li class="services__item">
+              <img src="images/services3.svg" alt="services" />
+              <p class="services__item-text">Системи поливу</p>
+            </li>
+            <li class="services__item">
+              <img src="images/services4.svg" alt="services" />
+              <p class="services__item-text">Догляд за рослинами</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="prices">
+        <div class="container">
+          <h2 class="title">Тарифи і ціни</h2>
+          <p class="prices__text">
+            Команда зеленого дизайну може розглянути бажання клієнта та створити
+            індивідуальний пакет послуг, який відповідає їхнім очікуванням та
+            бюджету.
+          </p>
+          <div class="prices__box">
+            <ul class="prices__list">
+              <li class="prices__item-first">1. Стартовий Пакет:</li>
+              <li class="prices__item">Ландшафтний дизайн</li>
+              <li class="prices__item">Посадка рослин</li>
+              <li class="prices__item">Система поливу</li>
+              <li class="prices__item">Консультація</li>
+              <li class="prices__item-sum">900 грн м²</li>
+              <li class="prices__item-btninner">
+                <a class="prices__item-btn" href="#!">Замовити розрахунок</a>
+              </li>
+            </ul>
+            <ul class="prices__list">
+              <li class="prices__item-first">2. Преміум Пакет:</li>
+              <li class="prices__item">Деталізований Ландшафтний Дизайн</li>
+              <li class="prices__item">Посадка Рослин</li>
+              <li class="prices__item">
+                Дизайн водних об'єктів: фонтани, струмки, водоспади.
+              </li>
+              <li class="prices__item">Система поливу</li>
+              <li class="prices__item">Планування системи освітлення</li>
+              <li class="prices__item">Підтримка та догляд за ландшафтом</li>
+              <li class="prices__item-sum">1800 грн м²</li>
+              <li class="prices__item-btninner">
+                <a class="prices__item-btn" href="#!">Замовити розрахунок</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="work">
+        <div class="container">
+          <h2 class="title">Як ми працюємо</h2>
+          <ol class="work__list">
+            <li class="work__item">Зустріч із Клієнтом</li>
+            <li class="work__item">Підписання договору</li>
+            <li class="work__item">Створення проекту</li>
+            <li class="work__item">Реалізація проекту</li>
+            <li class="work__item">Обслуговування</li>
+          </ol>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <h2 class="title">Наша команда</h2>
+          <p class="team__text">
+            Ландшафтний дизайн — це мистецтво створення краси, а Зелена палітра
+            — це художники, які знають секрети кожного відтінку природи.
+          </p>
+          <div class="team__inner">
+            <div class="team__list">
+              <div class="team__item">
+                <img src="images/team1.png" alt="team" class="tean__item-img" />
+                <p class="team__item-name">Юлія, керівник</p>
+                <p class="team__item-descr">
+                  Віддано природі та красі кожен день.
+                </p>
+              </div>
+              <div class="team__item">
+                <img src="images/team2.png" alt="team" class="tean__item-img" />
+                <p class="team__item-name">Максим, менеджер</p>
+                <p class="team__item-descr">
+                  Садовий магік, що перетворює мрії у зелені оази.
+                </p>
+              </div>
+              <div class="team__item">
+                <img src="images/team3.png" alt="team" class="tean__item-img" />
+                <p class="team__item-name">Ксенія, дизайнер</p>
+                <p class="team__item-descr">
+                  Люблю грішні рослини та відшукую їм ідеальний будинок.
+                </p>
+              </div>
+              <div class="team__item">
+                <img src="images/team4.png" alt="team" class="tean__item-img" />
+                <p class="team__item-name">Олег, проектант</p>
+                <p class="team__item-descr">
+                  Садовий ентузіаст, який вірить у силу зеленого лікування.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="container">
+          <h2 class="title">Часті питання</h2>
+          <div class="questions__accordeon accordeon">
+            <div class="accordeon__item">
+              <button class="accordeon__title">
+                Скільки часу зазвичай потрібно для виконання проекту?
+              </button>
+              <p class="accordeon__descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                eos eligendi ratione necessitatibus enim soluta reprehenderit
+                nostrum quibusdam nihil. Quaerat?
+              </p>
+            </div>
+            <div class="accordeon__item">
+              <button class="accordeon__title">
+                Як часто потрібно обслуговувати новий ландшафт?
+              </button>
+              <p class="accordeon__descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                eos eligendi ratione necessitatibus enim soluta reprehenderit
+                nostrum quibusdam nihil. Quaerat?
+              </p>
+            </div>
+            <div class="accordeon__item">
+              <button class="accordeon__title">
+                Які методи оплати приймаємо?
+              </button>
+              <p class="accordeon__descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                eos eligendi ratione necessitatibus enim soluta reprehenderit
+                nostrum quibusdam nihil. Quaerat?
+              </p>
+            </div>
+            <div class="accordeon__item">
+              <button class="accordeon__title">
+                Як довго надаємо послуги післяпродажного догляду?
+              </button>
+              <p class="accordeon__descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                eos eligendi ratione necessitatibus enim soluta reprehenderit
+                nostrum quibusdam nihil. Quaerat?
+              </p>
+            </div>
+            <div class="accordeon__item">
+              <button class="accordeon__title">
+                Чи можливе розбірка старого ландшафту перед початком нового
+                проекту?
+              </button>
+              <p class="accordeon__descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                eos eligendi ratione necessitatibus enim soluta reprehenderit
+                nostrum quibusdam nihil. Quaerat?
+              </p>
+            </div>
+            <div class="accordeon__item">
+              <button class="accordeon__title">
+                Чи надаєте консультації та розробку дизайну онлайн?
+              </button>
+              <p class="accordeon__descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                eos eligendi ratione necessitatibus enim soluta reprehenderit
+                nostrum quibusdam nihil. Quaerat?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-form">
+        <div class="container">
+          <div class="contact-form__inner">
+            <div class="contact-form__content">
+              <h2 class="title">Детальніше</h2>
+              <p class="contact-form__text">
+                Хочу безкоштовний виїзд на об’єкт
+              </p>
+              <form action="#" class="form">
+                <p class="form__text">
+                  Укажіть свої контактні дані і наш менеджер перетелефонує Вам
+                </p>
+                <input type="text" class="form__input" placeholder="Ім’я" />
+                <input type="tel" class="form__input" placeholder="Телефон" />
+                <input type="text" class="form__input" placeholder="Адреса" />
+                <button type="submit" class="form__btn">Відправити</button>
+              </form>
+              <a href="#!" class="form__link"
+                ><span>Або відразу нам в телеграм</span>
+                <img src="images/telegram.svg" alt="telegram"
+              /></a>
+            </div>
+            <div class="contact-form__images">
+              <img
+                class="contact-form__img"
+                src="images/contact1.png"
+                alt="contact us"
+              />
+              <img
+                class="contact-form__img"
+                src="images/contact2.png"
+                alt="contact us"
+              />
+              <img
+                class="contact-form__img contact-form__img--modify"
+                src="images/contact3.png"
+                alt="contact us"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h2 class="title">Відгуки</h2>
+          <div class="swiper reviews__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide reviews__item">
+                <p class="reviews__item-name">
+                  <img
+                    src="images/rev1.png"
+                    alt="review"
+                    class="reviews__item-photo"
+                  />
+                  Юлія, м. Київ
+                </p>
+                <p class="reviews__item-text">Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою, дослухалися до всіх моїх побажаннь. Рекомендую!</p>
+              </div>
+              <div class="swiper-slide reviews__item">
+                <p class="reviews__item-name">
+                  <img
+                    src="images/rev2.png"
+                    alt="review"
+                    class="reviews__item-photo"
+                  />
+                  Олександр, м. Вінниця
+                </p>
+                <p class="reviews__item-text">Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні поради, щодо догляду.</p>
+              </div>
+              <div class="swiper-slide reviews__item">
+                <p class="reviews__item-name">
+                  <img
+                    src="images/rev1.png"
+                    alt="review"
+                    class="reviews__item-photo"
+                  />
+                  Юлія, м. Київ
+                </p>
+                <p class="reviews__item-text">Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою, дослухалися до всіх моїх побажаннь. Рекомендую!</p>
+              </div>
+              <div class="swiper-slide reviews__item">
+                <p class="reviews__item-name">
+                  <img
+                    src="images/rev2.png"
+                    alt="review"
+                    class="reviews__item-photo"
+                  />
+                  Олександр, м. Вінниця
+                </p>
+                <p class="reviews__item-text">Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні поради, щодо догляду.</p>
+              </div>
+              <div class="swiper-slide reviews__item">
+                <p class="reviews__item-name">
+                  <img
+                    src="images/rev1.png"
+                    alt="review"
+                    class="reviews__item-photo"
+                  />
+                  Юлія, м. Київ
+                </p>
+                <p class="reviews__item-text">Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою, дослухалися до всіх моїх побажаннь. Рекомендую!</p>
+              </div>
+              <div class="swiper-slide reviews__item">
+                <p class="reviews__item-name">
+                  <img
+                    src="images/rev2.png"
+                    alt="review"
+                    class="reviews__item-photo"
+                  />
+                  Олександр, м. Вінниця
+                </p>
+                <p class="reviews__item-text">Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні поради, щодо догляду.</p>
+              </div>
+              
+            </div>
+
+    
+
+            <div class="reviews__item-prev reviews__item-arrow">
+              <img src="images/slidearrowprev.svg" alt="">
+            </div>
+            <div class="reviews__item-next reviews__item-arrow">
+              <img src="images/slidearrownext.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <h2 class="title">Контакти</h2>
+          <div class="contacts__inner">
+            <img
+              src="images/contactsimg.png"
+              alt="contacts"
+              class="contacts__img"
+            />
+            <div class="contacts__content">
+              <p class="contacts__text">
+                Зателефонуйте зараз та розпочніть трансформацію вашого саду у
+                справжній рай на землі!
+              </p>
+              <dl class="contacts__info">
+                <dt>Телефон</dt>
+                <dd>
+                  <a href="tel:+38099299996">+38 099 299 996</a>
+                </dd>
+                <dt>Адреса</dt>
+                <dd>м. Київ, вул. Зелена, 5б</dd>
+                <dt>Графік роботи</dt>
+                <dd>пн-сб з 10:00 до 20:00</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__left">
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a href="#!" class="footer__menu-link">Про нас</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#!" class="footer__menu-link">Проекти</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#!" class="footer__menu-link">Послуги</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#!" class="footer__menu-link">Ціна</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#!" class="footer__menu-link">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+            <ul class="social__list">
+              <li class="social__list-item">
+                <a href="#!" class="social__list-link"
+                  ><img src="images/telegramico.svg" alt="social links"
+                /></a>
+              </li>
+              <li class="social__list-item">
+                <a href="#!" class="social__list-link"
+                  ><img src="images/instagramico.svg" alt="social links"
+                /></a>
+              </li>
+              <li class="social__list-item">
+                <a href="#!" class="social__list-link"
+                  ><img src="images/facebooico.svg" alt="social links"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <a href="#!" class="footer__logo">
+              <img src="images/logo.svg" alt="logo" />
+            </a>
+            <p class="footer__text">Реалізуйте Ваші зелені мрії з нами</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
