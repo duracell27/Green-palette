@@ -537,11 +537,27 @@ ul {
 .projects__galery-img{
     max-width: 100%;
 }
-@media (min-width: 1210px) {
+@media (max-width: 1210px) {
   .about__inner-img {
     max-width: 470px;
   }
   .why__img{
+    max-width: 470px;
+  }
+  .contact-form__img--modify{
+    display: none;
+  }
+  .contact-form__images{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+  .form__input{
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .contacts__img{
     max-width: 470px;
   }
 }
@@ -597,6 +613,20 @@ ul {
   }
   .work__item{
     padding-left: 25px;
+  }
+  .team__list{
+    flex-wrap: wrap;
+  }
+  .team__item{
+    margin: 10px 0;
+    text-align: center;
+  }
+  .accordeon__title{
+    font-size: 20px;
+  }
+  .contacts__text{
+    font-size: 24px;
+    margin-bottom: 40px;
   }
   
 }
@@ -678,6 +708,9 @@ ul {
   .prices__box {
     flex-direction: column;
   }
+  .contacts__img{
+    max-width: 370px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -714,7 +747,7 @@ ul {
     margin: 20px auto 25px;
   }
   .header-content__btn--desc {
-    display: inline-block;
+    display: block;
   }
   .header-content__btn--mob {
     display: none;
@@ -777,6 +810,27 @@ ul {
   .footer__text{
     font-size: 24px;
   }
+  .team__text{
+    font-size: 24px;
+  }
+  .accordeon__title{
+    padding-right: 30px;
+  }
+  .accordeon__title::after{
+    right: 0;
+  }
+  .contact-form__inner{
+    grid-template-columns: 1fr;
+  }
+  .contact-form__images{
+    margin: 10px 0;
+  }
+  .contacts__img{
+    max-width: 320px;
+  }
+  .header-content__text--desc{
+    display: block;
+  }
 }
 
 @media (max-width: 640px) {
@@ -800,6 +854,22 @@ ul {
       }
       .projects__galery-text{
         font-size: 14px;
+      }
+      .team__item-descr{
+        font-size: 16px;
+      }
+      .contacts__text{
+        font-size: 20px;
+      }
+      .contacts__info{
+        font-size: 16px;
+      }
+      .contacts__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .contacts__img{
+        margin: 10px 0;
       }
 }
 
@@ -887,6 +957,31 @@ ul {
   .footer__right{
     padding-left: 0;
   }
+  .team__text{
+    font-size: 18px;
+  }
+  .accordeon{
+    column-count: 1;
+  }
+  .contact-form__text{
+    font-size: 20px;
+  }
+  .form__text{
+    font-size: 14px;
+  }
+  .form__input{
+    font-size: 18px;
+  }
+  .form__input::placeholder{
+    font-size: 18px;
+  }
+  .form__btn{
+    width: 100%;
+  }
+  .form__link{
+    justify-content: center;
+  }
+
 }
 
 @media (max-width: 360px) {

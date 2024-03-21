@@ -1,13 +1,20 @@
 const swiper = new Swiper('.reviews__slider', {
    
     loop: true,
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 22,
 
     navigation: {
       nextEl: '.reviews__item-next',
       prevEl: '.reviews__item-prev',
     },
+    breakpoints: {
+        // when window width is <= 768px
+        600: {
+          slidesPerView: 2,
+          spaceBetween: 22,
+        },
+    }
   
   });
 
